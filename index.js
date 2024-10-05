@@ -24,7 +24,9 @@ let remove = document.getElementsByClassName('remove');
 for(let i = 0; i < remove.length; i++) {
 remove[i].addEventListener('click', () => {
     let parent = remove[i].parentElement;
+    alert('Task successfully removed!')
     parent.style.display = 'none'
+    
 })
 }
 //adds task to task list, alert for empty field, alert for successful addition, X button to remove task next to 
